@@ -1,0 +1,17 @@
+do $$
+declare
+test_date date;
+r record;
+end_date date;
+begin
+test_date = '2023-04-10';
+for r in select * from construction_queue
+loop
+end_date:= r.start_date + building_cost.build_time from building_cost where r.building_id = building_cost.building_id;
+if (end_date > test_date) then
+execute 'insert into base_building(building_id, base_id) values ('|| r.building_id || ',' || r.base_id || ');
+delete from construction_queue where construction_queue.construction_id ='|| r.construction_id;
+else execute ' ';
+end if;
+end loop;
+end$$;
