@@ -1,0 +1,3 @@
+•	Used a Distributional Semantic Model file to identify words that are similar semantically
+•	Manipulated the vectors in the DSM file using methods to determine the cosine similarity between a stated word and words in the file, using IntelliJ
+•	Wrote a heap sort class to sort through the cosine similarity values to establish the top five closest words
