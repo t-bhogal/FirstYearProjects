@@ -1,0 +1,2 @@
+•	Implemented TCP/IP client-server architecture using IntelliJ by creating methods in the Playwriter client class that requested ‘love’ values from the single-threaded Romeo and Juliet servers
+•	Developed corresponding methods in the server classes that sent the correct values upon receiving these requests, until the threads were interrupted in the client class at the end of the play 
