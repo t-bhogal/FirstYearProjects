@@ -1,8 +1,8 @@
 # FirstYearProjects
-This repository contains three projects I completed in First Year. My results were as follows:
-Full Stack Application - Romeo and Juliet - 86%
-Full Stack Application - Fantasy Base Building - 91%
-Object Oriented Programming - Semantic Embedding - 93%
+This repository contains three projects I completed in First Year. My results were as follows:  
+Full Stack Application - Romeo and Juliet - 86%  
+Full Stack Application - Fantasy Base Building - 91%  
+Object Oriented Programming - Semantic Embedding - 93%  
 
 I thoroughly enjoyed both of my programming based modules last year and believe these assignments exemplify the skills I learned along the way. I have attached a short description of each assignment task in the relevant folder, and have attached those same descriptions below:
 
